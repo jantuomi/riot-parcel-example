@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "author": "Jan Tuomi <jans.tuomi@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "url": "https://github.com/jantuomi/riot-parcel-example",
+    "type": "git"
+  },
   "scripts": {
     "build": "riot src/components src/tags.js && parcel build --public-url=./ src/index.html",
     "start": "yarn watch",
