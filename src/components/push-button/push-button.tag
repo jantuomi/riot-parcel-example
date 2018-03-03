@@ -7,7 +7,7 @@
 
   <script>
     click() {
-      clicker.trigger('click');
+      observe('clicker').trigger('click');
     }
   </script>
 </push-button>

@@ -5,7 +5,7 @@
     this.count = 0;
     const counter = this;
 
-    clicker.on('click', () => {
+    observe('clicker').on('click', () => {
       counter.count += 1;
       counter.update();
     });

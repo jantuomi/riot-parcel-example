@@ -3366,7 +3366,13 @@ riot-tmpl@^3.0.8:
   dependencies:
     eslint-config-riot "^1.0.0"
 
-riot@^3.7.4:
+riot-vigilante@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/riot-vigilante/-/riot-vigilante-1.0.1.tgz#3d5c05f940682abc0bf5b3233455a3289547a9e6"
+  dependencies:
+    riot "^3.9.0"
+
+riot@^3.7.4, riot@^3.9.0:
   version "3.9.0"
   resolved "https://registry.yarnpkg.com/riot/-/riot-3.9.0.tgz#a7a87b82ff8240d99ab0112f6033b532a6d41abd"
   dependencies:

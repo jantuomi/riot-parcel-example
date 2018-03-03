@@ -16,7 +16,8 @@
   },
   "dependencies": {
     "less": "^3.0.1",
-    "riot": "^3.7.4"
+    "riot": "^3.7.4",
+    "riot-vigilante": "^1.0.1"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
