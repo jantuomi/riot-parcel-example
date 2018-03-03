@@ -1,0 +1,49 @@
+@riot-color-red:      #fc0e49;
+@riot-color-white:    #fff;
+@riot-color-black:    #313131;
+@riot-color-blue:     #268bd2;
+
+@mobile-width:        600px;
+
+@font:                'Lato', sans-serif;
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.lato-font(@size) {
+  font-family: 'Lato', sans-serif;
+  font-size: @size;
+}
+
+html {
+  .lato-font(20px);
+  
+  background-color: @riot-color-white;
+  color: @riot-color-black;
+  box-sizing: border-box;
+}
+
+body {
+  border: 0;
+
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 1rem;
+}
+
+a {
+  color: @riot-color-blue;
+}
+
+button {
+  .lato-font(1rem);
+
+  padding: 0.5rem 1rem;
+  background-color: @riot-color-red;
+  color: @riot-color-white;
+  border: 0;
+  border-radius: 5px;
+}

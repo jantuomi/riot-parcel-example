@@ -1,0 +1,3 @@
+<content>
+  <counter />
+</content>

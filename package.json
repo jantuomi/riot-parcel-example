@@ -1,0 +1,22 @@
+{
+  "name": "riot-parcel-example",
+  "version": "1.0.0",
+  "author": "Jan Tuomi <jans.tuomi@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "riot src/components src/tags.js && parcel build --public-url=./ src/index.html",
+    "start": "yarn watch",
+    "watch": "yarn watch:riot & yarn watch:parcel",
+    "watch:riot": "riot -w src/components src/tags.js",
+    "watch:parcel": "parcel src/index.html"
+  },
+  "dependencies": {
+    "less": "^3.0.1",
+    "riot": "^3.7.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "parcel-bundler": "^1.6.2",
+    "watch": "^1.0.2"
+  }
+}
